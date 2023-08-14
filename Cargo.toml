@@ -1,0 +1,16 @@
+[package]
+name = "import-and-send-via-mqtt"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+csv = "1.2.2"
+notify = "6.0.1"
+rumqttc = "0.22.0"
+serde = { version = "1.0.182", features = ["derive"] }
+serde_json = "1.0.104"
+
+[dev-dependencies]
+stringreader = "0.1.1"
